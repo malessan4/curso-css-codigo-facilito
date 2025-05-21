@@ -1,3 +1,10 @@
+/* Selector universal */
+* {
+    background-color: black;
+    color: white;
+}
+
+
 /* h1{
     color: blue;
 } */
@@ -9,7 +16,7 @@ Ctrl + K Ctrl + U
 
 */
 
-body{
+body {
     padding: 1%;
 }
 
@@ -24,14 +31,21 @@ body{
 
 /* Asi podemos modificar solo los elementos que tengan
 la clase titulo */
-.titulo{
+.titulo {
     color: yellow;
     background-color: black;
 
 
 }
 
-.negrita{
+/* Creo una clase en CSS y desp lo aplico al html */
+.negrita {
     font-weight: bold;
 
+}
+
+/* Selector de ID, no es muy recomendable */
+#titulo {
+    color: steelblue;
+    font-size: 50px;
 }
