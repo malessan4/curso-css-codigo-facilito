@@ -16,8 +16,18 @@ Ctrl + K Ctrl + U
 
 */
 
+
+/* .orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 40px;
+  font-style: normal;
+} */
+
+
 body {
     padding: 1%;
+    font-family:
 }
 
 /* Asi podemos modificar varias etiquetas distinas */
@@ -29,10 +39,15 @@ body {
 }
  */
 
+h2{
+  font-family: "Orbitron", sans-serif;
+}
+
+
 /* Asi podemos modificar solo los elementos que tengan
 la clase titulo */
 .titulo {
-    color: yellow;
+    color: green;
     background-color: black;
 
 
