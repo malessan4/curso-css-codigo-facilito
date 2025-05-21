@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: lato;
+}
+
+.element{
+    margin: 80px auto;
+    width: 50%;
+    height: 200px;
+    background-color: royalblue;
+}
+
+/* Los media Queries siempre van al fondo del css */
+
+/* Cuando usamos max-width siempre es mayor arriba menor abajo */
+@media (max-width: 500px){
+    .element{
+        background-color: crimson;
+    }
+}
+
+/* Cuando usamon menor siempre arriba y el mayor siempre abajo */
+@media (min-width: 500px){
+
+    body{
+        background-color: black;
+    }
+
+    .element{
+        background-color: crimson;
+    }
+}
