@@ -1,6 +1,6 @@
-h1{
+/* h1{
     color: blue;
-}
+} */
 
 /* 
 
@@ -9,6 +9,29 @@ Ctrl + K Ctrl + U
 
 */
 
-h2{
+body{
+    padding: 1%;
+}
+
+/* Asi podemos modificar varias etiquetas distinas */
+
+/* h2, p{
     color: red;
+    font-size: 30px;
+
+}
+ */
+
+/* Asi podemos modificar solo los elementos que tengan
+la clase titulo */
+.titulo{
+    color: yellow;
+    background-color: black;
+
+
+}
+
+.negrita{
+    font-weight: bold;
+
 }
