@@ -16,18 +16,18 @@ Ctrl + K Ctrl + U
 
 */
 
-
-/* .orbitron {
+/*
+ .orbitron {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
   font-weight: 40px;
   font-style: normal;
-} */
-
+} 
+*/
 
 body {
     padding: 1%;
-    font-family:
+    font-family: lato;
 }
 
 /* Asi podemos modificar varias etiquetas distinas */
