@@ -1,0 +1,7 @@
+.caja{
+    background-color: brown;
+    max-width: 800px;
+    width: 90%;
+    height: 100px;
+    overflow: hidden;
+}
